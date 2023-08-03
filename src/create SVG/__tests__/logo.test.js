@@ -4,6 +4,7 @@ const Triangle = require("../../classes/triangle");
 const Circle = require("../../classes/circle");
 
 describe("logo.js", () => {
+  //tests if a new square is constructed when called
   it("should return constructor of type square", () => {
     const mockShape = "Square";
     const svgData = {
@@ -15,6 +16,8 @@ describe("logo.js", () => {
     const result = createSVG(svgData);
     expect(result).toBeInstanceOf(Square);
   });
+
+  //tests if new circle is constructed when called
   it("should return constructor of type circle", () => {
     const mockShape = "Circle";
     const svgData = {
@@ -26,6 +29,8 @@ describe("logo.js", () => {
     const result = createSVG(svgData);
     expect(result).toBeInstanceOf(Circle);
   });
+
+  //tests if new triangle is constructed when called
   it("should return constructor of type triangle", () => {
     const mockShape = "Triangle";
     const svgData = {

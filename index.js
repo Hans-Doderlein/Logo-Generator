@@ -10,6 +10,7 @@ startPrompt((response) => {
   // create SCG file using resposne data
   const sucess = writeSVGFile(svgData.render());
 
+  //Displays success or failure message to the console
   if (sucess) {
     console.log("Generated logo.svg");
   } else {

@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
-<rect x="10" y="10" width="150" height="150" fill="red" />
-<text x="85" y="100" font-size="40" text-anchor="middle" fill="red"></text>
+<circle cx="150" cy="100" r="80" fill="yellow"/>
+<text x="150" y="110" font-size="40" text-anchor="middle" fill="red">hnd</text>
 </svg>
